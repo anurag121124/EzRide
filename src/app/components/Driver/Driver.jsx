@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Driver = () => {
+  const [todo, setTodo] = useState('');
+
+  function updateTodo(todo) {
+    todo++
+  }
+
   return (
     <div>
-      Driver
+      <button onClick={updateTodo}>Add</button>
+      <h1>{todo}</h1>
     </div>
   )
 }

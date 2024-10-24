@@ -1,5 +1,4 @@
 import React from "react";
-import '../Css/CardVideoSection.css'
 
 const CardVideoSection = () => {
   return (
