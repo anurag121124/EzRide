@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: anurag121124/EzRide:latest
+          tags: anurag121124/ezride:latest
