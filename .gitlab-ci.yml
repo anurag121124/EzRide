@@ -1,0 +1,26 @@
+image: node:18-alpine
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - .next
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying to Vercel..."
+    - npx vercel --token $VERCEL_TOKEN --prod --confirm

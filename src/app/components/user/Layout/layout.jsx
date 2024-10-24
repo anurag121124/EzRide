@@ -6,7 +6,7 @@ const Layout = ({children}) => {
     <main className="h-screen border-red-500 border-">
       <Grid container>
         <Grid item xs={12} md={8} lg={5}>
-          { children}k
+          { children }
         </Grid>
         <Grid item className="h-screen w-full " xs={0} md={4} lg={7}>
           <img

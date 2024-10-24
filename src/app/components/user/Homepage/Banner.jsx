@@ -1,5 +1,4 @@
 import React from "react";
-import "../Css/Banner.css";
 import CircleIcon from "@mui/icons-material/Circle";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
