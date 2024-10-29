@@ -4,7 +4,7 @@
 import { useEffect, useState } from 'react';
 import { getToken, removeToken } from '../../utils/jwtHelper';
 import { useRouter } from 'next/navigation';
-import jwt_decode from 'jwt-decode'; // Ensure this is imported correctly
+import * as jwt_decode from 'jwt-decode';
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);
