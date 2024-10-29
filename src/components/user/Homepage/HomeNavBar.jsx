@@ -19,7 +19,7 @@ const HomeNavBar = () => {
           <div>
             <ul className="flex items-center">
               <li className="mr-6">
-                <a href="#" className="text-white hover:text-blue-200">
+                <a href="/auth/login" className="text-white hover:text-blue-200">
                   ola S1
                 </a>
               </li>
